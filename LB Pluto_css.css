@@ -1,0 +1,149 @@
+html{
+    background-color:#f0ece4  ;
+}
+
+h1 {
+    color: #4996c5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left: 84px;
+    margin-bottom: 0;
+    margin-top: 23px;
+    margin-right: 0;
+    width: 230px;
+    
+    
+    
+}
+
+h2{
+    color: white;
+    font-size: 14px;
+    margin-left: 84px;
+    margin-right: 0;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 1px;
+    width: 320px;
+    height: 0;
+
+}
+img{
+    
+    float: right;
+    margin-right: 32%;
+    margin-top: 1.5%;
+    
+}
+div{
+    background-color: black;
+    margin-top: 0;
+    margin-left: 470px;
+    width: 785px;
+    height: 270px;
+    
+}
+
+h3{
+    font-size: 28px;
+    color: #000000c7
+}
+h4{
+    color: #4996c5;
+    font-size: 14px
+}
+
+article{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    width: 340px;
+    margin-left: 32%;
+    margin-top: 4%;
+    
+}
+body{
+    margin: 0;
+}
+
+
+.link{
+    
+    text-decoration: none;
+    width: 12%;
+    margin-top: 14%;
+    margin-left: 74%;
+    
+    
+}
+
+.link a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    word-spacing: 16px;
+    
+}
+
+.list{
+    color: #4996c5;
+    font-size: 12px;
+    list-style: none;
+    width: 7%;
+    float: right;
+    margin-top: 2%;
+    margin-right: 29%;
+    padding-left: 12px;
+    padding-top: 10px;
+    line-height: 30px; 
+    
+
+}
+.list2{
+    color: #4996c5;
+    font-weight: bold;
+    font-size: 12px;
+    list-style: none;
+    border-right: 1px #4996c5 solid;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 7%;
+    float: right;
+    margin-top: 2%;
+    line-height: 30px;
+}
+.wiki{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    color:black;
+    margin-left: 32%;
+    
+}
+.mail{
+    background-color: black;
+    margin-top: 5%;
+    margin-left: 470px;
+    width: 605px;
+    padding-bottom: 60px;
+    padding-top: 65px;
+    padding-left: 180px;
+    word-spacing: 15px;
+}
+.mail a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+
+}
+.mail a:hover{
+    color: green;
+}
+.link a:hover{
+    color: blue;
+}
