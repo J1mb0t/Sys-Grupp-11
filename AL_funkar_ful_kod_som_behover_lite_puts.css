@@ -1,0 +1,168 @@
+body
+{
+    background-color: black;  
+}
+
+.box_container
+{        
+    width: 750px;
+    height: 200px;    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: black; 
+    display: center;      
+}
+
+.header_pluto
+{   
+    width: 70px;
+    margin-left: 85px;
+    margin-right: auto;
+    margin-top: 55px;
+    margin-bottom: auto;   
+}
+
+.header_subheader
+{    
+    margin-left: 85px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* ***utkommenterad för test av move-me. får vi använda move-me med position?
+.img_pluto
+{        
+   border: none;    
+    margin-left: 290px; 
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;     
+    padding-top: 18px;
+}
+*/
+
+.move_me
+{
+    width: 900px;
+    height: 100px;
+    position: relative;
+    top: -105px;
+    Left: 385px;
+    margin-bottom: none;
+    margin-top: none;
+}
+
+.header_links
+{   
+    margin-left: 560px;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: auto;
+    box-sizing: border-box;
+    border: none;
+}
+main
+{
+    width: 38%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #f0ece4; 
+    display: flex;
+    justify-items: center;
+;  
+}
+.main
+{  
+    width: 750px;
+    height: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: none;
+    margin-bottom: none;
+    background-color: #f0ece4; 
+    box-sizing: border-box;       
+    border: none; 
+      
+}
+
+.facts
+{
+    width: 100px; 
+    margin-left: 85px;  
+    margin-right: auto ;
+    margin-top: 20px ;    
+    margin-bottom: 12px; 
+    line-height: 14px;  
+    display: inline-block;
+}
+
+.column1
+{
+    width: 255px;
+    margin-left: 85px;   
+    margin-right: auto; 
+    margin-top: 50px;
+    margin-bottom: -20px; 
+    line-height: 14px;  
+    display: inline-block;
+    border: none;
+    vertical-align: top;        
+}
+
+.column2
+{ 
+    width: auto;  
+    margin-left: 460px;  
+    margin-right: auto;
+    margin-top: -330px;
+    margin-bottom: none;    
+    display: inline-block; 
+    vertical-align: top; 
+    border: none;         
+}
+
+.aside1
+{    
+    display: inline-block; 
+    text-align: right;
+    line-height: 18px;  
+    letter-spacing: 1px;
+}
+.aside2
+{    
+    display: inline-block; 
+    text-align: left;
+    line-height: 17px;  
+    letter-spacing: 2px;
+}
+
+.wiki_link
+{
+    width: 100px;
+    border: none;
+    margin-left: 80px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+footer
+{  
+    width: 750px;
+    height: 170px;
+    border: none; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    background-color: black;  
+    padding-top: 58px;   
+}
+
