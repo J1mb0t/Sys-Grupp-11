@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valfri sida</title>
+  <link rel="stylesheet" href="./css/valfri_sida.css">
+  <style>
+    
+    </style>
+  
+</head>
+
+ <!-- Just nu ligger det 5 cards på rad. Tänker att man kan testa lite och flytta runt dem och kanske lägga till en border i färg eller vad man känner för. 
+      Det är hover-funktion som gör att de poppar upp lite när för musen över ett card. Testa gärna att ändra eller använd några delar och bygg nåt nytt.
+      Längst ner i css-filen ligger varje container för vardera card. Dem kan man lägga i ett eget kodblock istället om man vill. Jag just nu har parat ihop 
+      dem medan jag håller på att testa lite. Bilden till link-card (link_2blue) ligger bland de uppladdade filerna, den är forfarande en jpg. Kommer vi fram 
+      till att vi ska använda just den så ka vi använda gör jag om den till en webp.
+    
+      Jag har gjort olika långa dropdowns så vi ser på ett ungefär hur mycket text vi vill ha.
+  -->
+
+<body>
+
+  <header>
+   <!-- Har lagt in en svart header bara för att få lite -->
+  </header>
+  
+  <main>
+    <!-- container for all cards -->
+  <div class="container_all_cards" >
+
+  <!-- container venus -->
+  <div class="container_venus">
+  <div class="card">
+      
+    <img src="./img/venus_2048.webp" alt="Venus">
+      
+      <div class="card_box_venus">
+       
+        <div class="dropdown">
+          <h4 class="h4"><b>Venus</b></h4>
+          <span class="span" margin-left="center" width="300px"><h4>Did you know...</h4></span>
+          <div class="dropdown-content">
+            <p><b>...that Venus and <br>
+              Earth are similar in size?</b></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed pharetra massa. 
+                Aenean auctor et libero sit amet posuere. Aliquam at cursus quam, non iaculis enim. <br><br>
+                Vivamus dictum tempus arcu at lacinia. Curabitur et massa dui. Donec molestie euismod dapibus. 
+                Vestibulum vitae nibh at ex mollis auctor. Aenean sit amet ante eu purus pulvinar eleifend. 
+                Nam commodo, quam non varius porttitor, quam nulla interdum eros, sit amet gravida est neque sed arcu. 
+                Praesent vitae nunc ut purus venenatis volutpat. <br><br>              
+                Fusce consequat ante eu massa accumsan, vitae luctus odio commodo. 
+                Phasellus sem est, viverra vitae commodo venenatis, ultrices sed odio. Nullam tortor nisi, rhoncus at sapien non, 
+                gravida mattis dui. Proin euismod mattis vestibulum.</p>
+          </div>
+        </div>        
+      </div>
+    </div>
+  </div>
+
+       <!-- container mars -->
+    <div class="container_mars">
+      <div class="card">
+          
+        <img src="./img/mars_2048.webp" alt="Mars">
+          
+          <div class="card_box_mars">
+           
+            <div class="dropdown">
+              <h4 class="h4"><b>Mars</b></h4>
+              <span class="span" margin-left="center" width="300px"><h4>Did you know...</h4></span>
+              <div class="dropdown-content">
+                <p><b>...that Mars, like Earth, <br>
+                  is a rocky planet?</b></p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed pharetra massa. 
+                    Aenean auctor et libero sit amet posuere. Aliquam at cursus quam, non iaculis enim. <br><br>
+                    Vivamus dictum tempus arcu at lacinia. Curabitur et massa dui. Donec molestie euismod dapibus. 
+                    Vestibulum vitae nibh at ex mollis auctor. Aenean sit amet ante eu purus pulvinar eleifend. 
+                    Nam commodo, quam non varius porttitor, quam nulla interdum eros, sit amet gravida est neque sed arcu. 
+                    Praesent vitae nunc ut purus venenatis volutpat. </p>
+              </div>
+            </div>
+           </div>
+        </div>
+  </div>
+
+     <!-- container jupiter -->
+  <div class="container_jupiter">
+    <div class="card">
+        
+      <img src="./img/jupiter_2048.webp" alt="Jupiter">
+        
+        <div class="card_box_jupiter">
+         
+          <div class="dropdown">
+            <h4 class="h4"><b>Jupiter</b></h4>
+            <span class="span" margin-left="center" width="300px"><h4>Did you know...</h4></span>
+            <div class="dropdown-content">
+              <p><b>...that Jupiter is the largest <br>
+                planet in the solar system?</b></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed pharetra massa. 
+                  Aenean auctor et libero sit amet posuere. Aliquam at cursus quam, non iaculis enim. <br><br>
+                  Vivamus dictum tempus arcu at lacinia. Curabitur et massa dui. Donec molestie euismod dapibus. 
+                  Vestibulum vitae nibh at ex mollis auctor. </p>
+            </div>
+          </div>
+         </div>
+      </div>
+</div>
+
+  <!-- container europa -->
+<div class="container_europa">
+  <div class="card">
+      
+    <img src="./img/europa_2048.webp" alt="Europa">
+      
+      <div class="card_box_europa">
+       
+        <div class="dropdown">
+          <h4 class="h4"><b>Europa</b></h4>
+          <span class="span" margin-left="center" width="300px"><h4>Did you know...</h4></span>
+          <div class="dropdown-content">
+            <p>...that Europe is covered in ice?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed pharetra massa. 
+                Aenean auctor et libero sit amet posuere. Aliquam at cursus quam, non iaculis enim. </p>
+          </div>
+        </div>
+       </div>
+    </div>
+</div>
+
+<!-- container links -->
+<div class="container_links">
+  <div class="card">
+      
+    <img src="./img/link_2blue.jpg" width="37%" height="37%" alt="Links">
+      
+      <div>
+       
+        <div class="dropdown">
+          <h4 class="h4"><b>Links</b></h4>
+          <span class="span" margin-left="center" width="300px"><h4>Want to know more about space?</h4></span>
+          <span class="span" margin-left="center" width="300px"><h4> Check out our links!</h4></span>
+          <div class="dropdown-content">
+            
+              <li><a href="https://www.lockheedmartin.com/en-us/capabilities/space/solarsystem/" target="_blank">Lockheed Martin</a></li>
+              <li><a href="https://theskylive.com/planetarium" target="_blank">The Skyline</a></li>
+              <li><a href="https://eyes.nasa.gov/ " target="_blank">NASA’s Eyes</a></li>              
+              <li><a href="https://spaceengine.org/" target="_blank">Space Engine</a></li>
+              <li><a href="https://www.earthspacelab.com/" target="_blank">Earth Space Lab</a></li>
+              
+          </div>
+        </div>        
+      </div>
+    </div>
+  </div> 
+
+</div>
+  </main>            
+  
+  <footer></footer>
+  
+  </body>  
+  
+  </html>
