@@ -1,0 +1,821 @@
+a:link {
+    text-decoration: #4996c5;
+}
+a:visited {
+    text-decoration: #495057;
+}
+a:active {
+    text-decoration: #4996c5;
+}
+a:hover {
+    text-decoration: #4996c5;
+    font-weight: bold;
+}
+
+
+/*--- ***** header ***** ---*/
+    .box-header {
+    
+/*----- positioning -----*/
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+    
+/*----- box model -----*/
+        display: inline;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        width: 100%;
+        height: 170px;
+    
+/*----- visual -----*/
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 2px;
+    }
+    .rubrik-header{
+        
+/*----- positioning -----*/
+        position: absolute;
+        top: 10px;
+        right: 0;
+        bottom: 320px;
+        left: 0px;
+    
+/*----- box model -----*/
+        display: flex;
+        flex-direction:column;
+        justify-content:left;
+        align-items: left;
+        width: 100%;
+        height: 180px;
+    
+/*----- visual -----*/
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 2px;
+    
+        font-family: 'vivaldi';
+        font-size: 90px;
+        font-style: italic;
+        color: white;
+        text-align: center;
+    }
+    
+/*--- ***** main ***** ---*/
+    main {
+        background-color: #fef9ef;
+        width: 100%;
+        height: 3300px;
+    }
+
+/*-----Stor box -----*/
+    .big-container {
+/*----- positioning -----*/
+        position: absolute;
+        top: 210px;
+        right: 150px;
+        bottom: 220;
+        left: 500px;
+    
+/*----- box model -----*/
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        width: 60%;
+        height: 3100px;
+        margin-bottom: 40px;
+    
+/*----- visual -----*/
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 50px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .5);
+    }
+    
+/*----- mars box -----*/
+    .mars-container {
+/*----- positioning -----*/
+        position: absolute;
+        top: 90px;
+        right: 100px;
+        bottom: 400px;
+        left: 50px;
+    
+/*----- box model -----*/
+        display: flex;
+        flex-direction: row;
+        justify-content:left;
+        align-items: center;
+        width: 652px;
+        height: 470px;
+    
+/*----- visual -----*/
+        background-color: white;
+        border: 1px solid #495057;
+        border-radius: 30px;
+        font-family: 'Perpetua';
+        font-size: 40px;
+        font-style: bold;
+        color: #4996c5;
+        text-decoration: double;
+        text-align: center;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+    }
+
+/*----- bildruta -----*/
+    .box-1{
+    
+/*----- positioning -----*/
+        position: absolute;
+        top: 60px;
+        right: 0;
+        bottom: 700;
+        left: 150px;
+    
+/*----- box model -----*/
+        display: flex;
+        flex-direction: column;
+        justify-content:left top;
+        align-items: center;
+        width: 350px;
+        height: 150px;
+    
+/*----- visual -----*/
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 2px;
+    }
+    .img-mars{
+        height: 150px;
+        width: 250px;
+    }
+    
+/*----- rubrik mars -----*/
+    .mars-rubrik {
+    
+/*----- positioning -----*/
+        position: absolute;
+        top: 185px;
+        right: 100px;
+        bottom: 400px;
+        left: 150px;
+    
+/*----- box model -----*/
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+        align-items: center;
+        width: 350px;
+        height: 40px;
+    
+/*----- visual -----*/
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 2px;
+        font-family: 'Perpetua';
+        font-size: 40px;
+        font-style: bold;
+        color: #4996c5;
+        text-decoration: double;
+        text-align: center;
+    }
+/*----- text mars -----*/
+    .dropdown-mars {
+/*----- positioning -----*/
+        position: absolute;
+        top: 235px;
+        right: 200px;
+        bottom: 500px;
+        left: 100px;
+    
+/*----- box model -----*/
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: left;
+        width: 450px;
+        height: 400px;
+    
+/*----- visual -----*/
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        color: #4996c5;
+        text-decoration: double;
+        text-align: center;
+        font-family: 'Rastanty Cortez';
+        font-size: 18px;
+        transition: 0.3s;
+    }
+.dropdown-mars:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 5);
+        color: black;
+        display: block;
+    }
+    
+   
+/*----- dropdowncontent mars -----*/
+    .dropdown-content-mars {
+        /*----- positioning -----*/
+        position: relative;
+        top: 235px;
+        right: 205px;
+        bottom: 500px;
+        left: 0px;
+    
+/*----- box model -----*/
+        display: inline-block;
+        flex-direction: row;
+        justify-content:center;
+        align-items: left;
+        width: 450px;
+        height: 800px;
+    
+/*----- visual -----*/
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: bold;
+        color: #495057;
+        text-decoration: double;
+        text-align: center;
+        font-family: 'Rastanty Cortez';
+        font-size: 18px;
+    }
+    /*.dropdown-mars > .link:focus + .dropdown-content-mars {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+    .link {
+        background: none;
+        border: none;
+        text-decoration: none;
+        color:#495057;
+        font-family: inherit;
+        font-size: inherit;
+        cursor: pointer;
+        padding: 0;
+    }
+    .link:hover {
+        color: black;
+    }
+    .dropdown {
+        position: relative;
+    }*/
+
+
+/*----- venus box -----*/
+    .venus-container {
+/*----- positioning -----*/
+        position: absolute;
+        top: 301px;
+        right: 100px;
+        bottom: 400px;
+        left: 1290px;
+    
+/*----- box model -----*/
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+        align-items: center;
+        width: 652px;
+        height: 470px;
+    
+/*----- visual -----*/
+        background-color: white;
+        border: 1px solid #495057;
+        border-radius: 30px;
+        font-family: 'Perpetua';
+        font-size: 40px;
+        font-style: bold;
+        color: #4996c5;
+        text-decoration: double;
+        text-align: center;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+    }
+/*----- bildruta -----*/
+    .box-2{
+    
+/*----- positioning -----*/
+        position: absolute;
+        top: 50px;
+        right: 100px;
+        bottom: 0;
+        left: 200px;
+    
+/*----- box model -----*/
+        display: flex;
+        flex-direction: column;
+        justify-content: right top;
+        align-items: center;
+        width: 250px;
+        height: 150px;
+    
+/*----- visual -----*/
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 2px;
+    }
+    .img-venus{
+        width: 250px;
+        height: 150px;
+    }
+
+/*----- rubrik venus -----*/
+    .venus-rubrik {
+    
+/*----- positioning -----*/
+        position: absolute;
+        top: 175px;
+        right: 100px;
+        bottom: 400px;
+        left: 200px;
+    
+/*----- box model -----*/
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+        align-items: center;
+        width: 250px;
+        height: 40px;
+    
+/*----- visual -----*/
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 2px;
+        font-family: 'Perpetua';
+        font-size: 40px;
+        font-style: bold;
+        color: #4996c5;
+        text-decoration: double;
+        text-align: center;
+    }
+/*----- text venus -----*/
+    .dropdown-venus {
+/*----- positioning -----*/
+        position: absolute;
+        top: 225px;
+        right: 200px;
+        bottom: 500px;
+        left: 100px;
+    
+/*----- box model -----*/
+        display: inline-block;
+        flex-direction: row;
+        justify-content:center;
+        align-items: left;
+        width: 450px;
+        height: 30px;
+    
+/*----- visual -----*/
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: bold;
+        color: #4996c5;
+        text-decoration: double;
+        text-align: center;
+        font-family: 'Rastanty Cortez';
+        font-size: 18px;
+        font-style: italic;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
+    }
+    .dropdown-venus:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 5);
+        color: black;
+        display: block;
+    }
+    
+/*----- dropdowncontent venus -----*/
+    .dropdown-content-venus {
+        /*----- positioning -----*/
+        position: relative;
+        top: 225px;
+        right: 200px;
+        bottom: 500px;
+        left: 0px;
+    
+/*----- box model -----*/
+        display: inline;
+        flex-direction: row;
+        justify-content:center;
+        align-items: left;
+        transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+        width: 450px;
+        height: 550px;
+    
+/*----- visual -----*/
+        background-color: white;
+        border: 1px solid #495057;
+        border-radius: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: bold;
+        color: #495057;
+        text-decoration: double;
+        text-align: center;
+        font-family: 'Rastanty Cortez';
+        font-size: 18px;
+    }    
+    .dropdown-venus > .link:focus + .dropdown-content-venus {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+    .link {
+        background: none;
+        border: none;
+        text-decoration: none;
+        color:#495057;
+        font-family: inherit;
+        font-size: inherit;
+        cursor: pointer;
+        padding: 0;
+    }
+    .link:hover {
+        color: black;
+    }
+    .dropdown {
+        position: relative;
+    }
+/*----- jupiter orange -----*/
+    .jupiter-container {
+        /*----- positioning -----*/
+        position: absolute;
+        top: 850px;
+        right: 100px;
+        bottom: 200px;
+        left: 550px;
+    
+/*----- box model -----*/
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+        align-items: center;
+        width: 652px;
+        height: 470px;
+    
+/*----- visual -----*/
+        background-color: white;
+        border: 1px solid #495057;
+        border-radius: 30px;
+        font-family: 'Perpetua';
+        font-size: 40px;
+        font-style: bold;
+        color: #4996c5;
+        text-decoration: double;
+        text-align: center;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+    }
+    /*----- bildruta -----*/
+    .box-3{
+/*----- positioning -----*/
+        position: absolute;
+        top: 50px;
+        right: 300px;
+        bottom: 0;
+        left: 150px;
+
+/*----- box model -----*/
+        display: flex;
+        flex-direction: column;
+        justify-content: left bottom;
+        align-items: center;
+        width: 350px;
+        height: 150px;
+    
+/*----- visual -----*/
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 2px;
+    }
+    .img-jupiter{
+        width: 250px;
+        height: 150px;
+    }
+
+    .jupiter-rubrik {
+/*----- positioning -----*/
+        position: absolute;
+        top: 175px;
+        right: 300px;
+        bottom: 0px;
+        left: 150px;
+    
+/*----- box model -----*/
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+        align-items: center;
+        width: 350px;
+        height: 40px;
+    
+/*----- visual -----*/
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 2px;
+        font-family: 'Perpetua';
+        font-size: 40px;
+        font-style: bold;
+        color: #4996c5;
+        text-decoration: double;
+        text-align: center;
+    }
+/*----- text jupiter -----*/
+    .dropdown-jupiter {
+/*----- positioning -----*/
+        position: absolute;
+        top: 230px;
+        right: 300px;
+        bottom: 0px;
+        left: 100px;
+    
+/*----- box model -----*/
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: left;
+        width: 450px;
+        height: 30px;
+    
+/*----- visual -----*/
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: bold;
+        color: #4996c5;
+        text-decoration: double;
+        text-align: center;
+        font-family: 'Rastanty Cortez';
+        font-size: 18px;
+        font-style: italic;
+    }
+    .dropdown-jupiter:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 5);
+        color: black;
+        display: block;
+    }
+    
+/*----- dropdowncontent jupiter -----*/
+    .dropdown-content-jupiter {
+/*----- positioning -----*/
+        position: relative;
+        top: 230px;
+        right: 300px;
+        bottom: 0px;
+        left: 0px;
+        z-index: 1;
+    
+/*----- box model -----*/
+        display: block;
+        flex-direction: row;
+        justify-content:center;
+        align-items: left;
+        padding: 12px 16px;
+        transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+        width: 450px;
+        height: 550px;
+    
+/*----- visual -----*/
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-family: 'Gotham';
+        font-style: bold;
+        color: #495057;
+        text-decoration: double;
+        text-align: center;
+        font-family: 'Rastanty Cortez';
+        font-size: 18px;
+        overflow: hidden;
+    }
+    .dropdown-jupiter > .link:focus + .dropdown-content-jupiter {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+    .link {
+        background: none;
+        border: none;
+        text-decoration: none;
+        color:#495057;
+        font-family: inherit;
+        font-size: inherit;
+        cursor: pointer;
+        padding: 0;
+    }
+    .link:hover {
+        color: black;
+    }
+    .dropdown {
+        position: relative;
+    }
+
+/*----- EUROPA BOX -----*/
+    .europa-container {
+/*----- positioning -----*/
+        position: absolute;
+        top: 865px;
+        right: 0px;
+        bottom: 400px;
+        left: 1290px;
+    
+/*----- box model -----*/
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+        align-items: center;
+        width: 652px;
+        height: 470px;
+    
+/*----- visual -----*/
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 25px;
+        font-family: 'Gotham';
+        font-style: bold;
+        color: #495057;
+        text-decoration: double;
+        text-align: center;
+        font-family: 'Rastanty Cortez';
+        font-size: 18px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+        opacity: 1;
+        transform: translateY(-10px);
+        pointer-events: none;
+    }
+/*----- BILDRUTA EUROPA -----*/
+    .box-4{
+/*----- positioning -----*/
+        position: absolute;
+        top: 50px;
+        right: 720px;
+        bottom: 0;
+        left: 200px;
+    
+/*----- box model -----*/
+        display: flex;
+        flex-direction: column;
+        justify-content:right bottom;
+        align-items: center;
+        width: 250px;
+        height: 150px;
+    
+/*----- visual ------*/
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 2px;
+    }
+    .img-europa{
+        width: 250px;
+        height: 150px;
+    }
+
+/*----- RUBRIK EUROPA -----*/
+    .europa-rubrik {
+    
+/*----- positioning -----*/
+        position: absolute;
+        top: 175px;
+        right: 700px;
+        bottom: 0px;
+        left: 200px;
+    
+/*----- box model -----*/
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+        align-items: center;
+        width: 250px;
+        height: 40px;
+    
+/*----- visual -----*/
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 2px;
+        font-family: 'Perpetua';
+        font-size: 40px;
+        font-style: bold;
+        color: #4996c5;
+        text-decoration: double;
+        text-align: center;
+    }
+
+/*----- TEXT EUROPA -----*/
+    .dropdown-europa {
+/*----- positioning -----*/
+        position: absolute;
+        top: 230px;
+        right: 700px;
+        bottom: 0px;
+        left: 100px;
+    
+/*----- box model -----*/
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: left;
+        width: 450px;
+        height: 30px;
+    
+/*----- visual -----*/
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: bold;
+        transition: 0.3s;
+        color: #4996c5;
+        text-decoration: double;
+        text-align: center;
+        font-family: 'Rastanty Cortez';
+        font-size: 18px;
+        font-style: italic;
+    }
+    .dropdown-europa:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+        color: black;
+        display: block;
+    }
+/*----- dropdowncontent europa -----*/
+.link {
+    background: none;
+    border: none;
+    text-decoration: none;
+    color:#495057;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    padding: 0;
+}
+.link:hover {
+    color: black;
+}
+.dropdown {
+    position: relative;
+}
+/*----- dropdowncontent europa -----*/
+.dropdown-content-europa {
+        /*----- positioning -----*/
+        position: relative;
+        top: 265px;
+        right: 700px;
+        bottom: 0px;
+        left: 0px;
+        z-index: 1;
+    
+/*----- box model -----*/
+        display: block;
+        flex-direction: row;
+        justify-content:center;
+        align-items: left;
+        padding: 12px 16px;
+        transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+        width: 450px;
+        height: 550px;
+    
+/*----- visual -----*/
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-family: 'Gotham';
+        font-style: bold;
+        color: #495057;
+        text-decoration: double;
+        text-align: center;
+        font-family: 'Rastanty Cortez';
+        font-size: 18px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+        opacity: 1;
+        transform: translateY(-10px);
+        pointer-events: none;
+}
+.dropdown-europa > .link:focus + .dropdown-content-europa {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+/*----- footer -----*/
+footer {
+    width: 100%;
+    height: 170px;
+    background-color: black;
+    border: 1px solid white;
+    color: #fef9ef;
+    text-decoration: double;
+    text-align: center;
+    font-family: 'Rastanty Cortez';
+    font-size: 18px;
+    font-style: italic;
+}
