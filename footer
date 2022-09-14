@@ -1,0 +1,12 @@
+<!--lägg under </main> i koden-->
+<footer>
+    <ul class="mail">
+        <li>Contact us!</li>
+        <li><a href="mailto:h22liben@du.se">Linus Bengtsson - h22liben@du.se</a></li>
+        <li><a href="mailto:h22jimha@du.se">Jimmy Hammarberg - h22jimha@du.se</a></li>
+        <li><a href="mailto:h22annla@du.se">Annika Larsdotter - h22annla@du.se</a></li>
+        <li><a href="mailto:h22hozsi@du.se">Hozan Sido - h22hozsi@du.se</a></li>
+        <li><a href="mailto:h22sowen@du.se">Sofie Wennström - h22sowen@du.se</a></li>
+    </ul>
+    <p class="th">Special thanks to Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+</footer>
