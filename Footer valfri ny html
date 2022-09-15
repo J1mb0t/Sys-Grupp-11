@@ -1,0 +1,20 @@
+<!--lägg mellan </main> och </body> -->
+
+<footer>
+    <ul class="mail">
+        <li>Contact us!</li>
+        <li><a href="mailto:h22liben@du.se">Linus Bengtsson - h22liben@du.se</a></li>
+        <li><a href="mailto:h22jimha@du.se">Jimmy Hammarberg - h22jimha@du.se</a></li>
+        <li><a href="mailto:h22annla@du.se">Annika Larsdotter - h22annla@du.se</a></li>
+        <li><a href="mailto:h22hozsi@du.se">Hozan Sido - h22hozsi@du.se</a></li>
+        <li><a href="mailto:h22sowen@du.se">Sofie Wennström - h22sowen@du.se</a></li>
+    </ul>
+    <ul class="th">
+      <li>Sources:</li>
+      <li><a href="https://www.nrm.se/faktaomnaturenochrymden/rymden/planeterochasteroider/mars.8058.html">Facts about Mars</a></li>
+      <li><a href="https://www.nrm.se/faktaomnaturenochrymden/rymden/planeterochasteroider/venus.8055.html">Facts about Venus</a></li>
+      <li><a href="https://www.nrm.se/faktaomnaturenochrymden/rymden/planeterochasteroider/jupiter.8060.html">Facts about Jupiter</a></li>
+      <li><a href="https://www.popularastronomi.se/2018/05/ny-inblick-in-i-manen-europa-med-tjugo-ar-gamla-data/">Facts about Europa</a></li>
+      <li><a href="https://www.freepik.com/free-photo/starry-night-sky_7061153.htm#query=starry%20night&position=5&from_view=search%22%3EImage">Starry night</a></li>
+    </ul>
+</footer>
