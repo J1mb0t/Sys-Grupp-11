@@ -1,0 +1,176 @@
+/*bakgrund för sidan*/
+html{
+    background-color: #f0ece4;
+}
+
+/*0 margin för sidan*/
+body{
+    margin: 0px;
+}
+
+/*header Pluto*/
+h1 {
+    color: #4996c5;
+    font-family:'Arial Black';
+    font-weight: bolder;
+    font-size: 90px;
+    margin-left: 250px;
+    margin-bottom: 15px;
+    margin-top: 80px;
+    margin-right: 0;
+    width: 230px;
+    
+}
+/*underrubrik*/
+h2{
+    color: white;
+    font-size: 27px;
+    margin-left: 250px;
+    margin-right: 0;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 1px;
+    width: 600px;
+    height: 0;
+
+}
+
+/*bild på Pluto*/
+img{
+    float: right;
+    margin-right: 255px;
+    margin-top: 60px;
+    
+}
+/*färg bakom headern*/
+div{
+    background-color: black;
+    margin-top: 0;
+    padding-bottom: 0px;
+    width: 100%;
+    height: 550px;
+    
+}
+
+/*länkar under header*/
+.link{
+    text-decoration: none;
+    width: 12%;
+    margin-left: 73%;
+    
+}
+
+.link a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    word-spacing: 25px;
+    
+}
+
+/*FACTS*/
+h3{
+    font-size: 55px;
+    margin-bottom: 50px;
+    color: #000000c7;
+}
+
+/*rubrik över faktatext*/
+h4{
+    color: #4996c5;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+/*faktatext*/
+article{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 33px;
+    width: 600px;
+    margin-left: 14%;
+    margin-top: 40px;
+    padding-top: 40px;
+    display: inline-block;
+}
+article p{
+    font-size: 22px;
+    margin-bottom: 60px;
+    color: #000000c7;
+}
+
+.paragraf{
+    width: 625px;
+}
+
+/*faktarutan*/
+.list2{
+    color: #4996c5;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    list-style: none;
+    width: 120px;
+    margin-top: 10%;
+    padding-left: 10px;
+    padding-top: 0px;
+    line-height: 60px; 
+    display: inline-block;
+    border-left: #4996c5 2px solid;
+}
+.list{
+    color: #4996c5;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 10%;
+    line-height: 60px;
+    display: inline-block;
+}
+aside{
+    width: 450px;
+    float: right;
+    margin-top: 200px;
+    margin-right: 200px;
+}
+
+/*länk till wikipedia*/
+.wiki{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    color:black;
+    margin-left: 14%;
+    margin-top: 0;
+}
+
+/*footer med mail*/
+.mail{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 8%;
+    width: 100%;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    word-spacing: 15px;
+}
+.mail a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+
+/*hover funktion*/
+a:hover{
+    color: #4996c5;
+}
