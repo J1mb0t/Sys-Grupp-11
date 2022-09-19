@@ -8,6 +8,7 @@
     <title>Valfri</title>
     <link rel="stylesheet" href="./css/grupp_11_valfri.css">  
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+    
   </head>
 
   <body>
@@ -20,9 +21,9 @@
         <div class="header">
           <div class="logo_container">              
            <h2>Group<span>Eleven</span></h2>
-           <ul class="navigation">
-            <a href="grupp_11_pluto.html"><li>Pluto</li></a>
-           </ul>
+           <div class="navigation">
+            <a href="grupp_11_pluto.html">Pluto</a>
+           </div>
           </div>
         </div>       
       </div>
@@ -45,10 +46,10 @@
       <h5 class="welcome"><b>Welcome to Celestials fact page!</b></h5> 
 
       <!-- info phrase about site -->
-      <span class="span_info_message">
-       <h5>Here you will find facts about the characteristics of some selected celestial bodies in our solar system.
-       <br>- &nbsp;&nbsp; Hover over the lower part of the card to fold out the information. &nbsp;&nbsp; -</h5>
-      </span>
+      
+       <h5 class="h5_info_message">Here you will find facts about the characteristics of some selected celestial bodies in our solar system.
+       <br>- &nbsp;&nbsp; Hover over the lower part of the card to fold out the information. &nbsp;&nbsp; </h5>
+     
 
       <!-- container for cards /controls the layout for the 2 rows of cards / in here all 4 planets -->
       <div class="layout_box">
@@ -61,7 +62,7 @@
              <div class="card_box_venus">       
                <div class="dropdown">
                  <h4 class="h4"><b>Venus</b></h4>
-                 <span class="span" margin-left="center" width="300px"><h4>Did you know...</h4></span>
+                 <h4 class="span">Did you know...</h4>
                  <div class="dropdown_content">
                    <p><b>...that Venus and <br> Earth are similar in size?</b></p>
                    <p>Even though Venus is the second closest celestial to the sun, it is the hottest planet in the solar system. 
@@ -83,7 +84,7 @@
            <div class="card_box_mars">       
              <div class="dropdown">
                 <h4 class="h4"><b>Mars</b></h4>
-                <span class="span" margin-left="center" width="300px"><h4>Did you know...</h4></span>
+                <h4 class="span">Did you know...</h4>
                <div class="dropdown_content">
                  <p><b>...that Mars, like Earth, <br> is a rocky planet?</b></p>
                  <p>Mars is the planet in our solar system where there may have been life or there is microscopic life today. 
@@ -104,7 +105,7 @@
             <div class="card_box_jupiter">           
              <div class="dropdown">
               <h4 class="h4"><b>Jupiter</b></h4>
-               <span class="span" margin-left="center" width="300px"><h4>Did you know...</h4></span>
+              <h4 class="span">Did you know...</h4>
                <div class="dropdown_content">
                  <p><b>...that Jupiter is the largest <br> planet in the solar system?</b></p>
                  <p>The most famous feature on Jupiter - the Great Red Spot - is a huge storm system that was discovered 
@@ -125,7 +126,7 @@
             <div class="card_box_europa">       
               <div class="dropdown">
                  <h4 class="h4"><b>Europa</b></h4>
-                 <span class="span" margin-left="center" width="300px"><h4>Did you know...</h4></span>
+                 <h4 class="span">Did you know...</h4>
                 <div class="dropdown_content">
                   <p><b>...that Europe is covered in ice?</b></p>
                   <p>Europe is the smallest and most lightweight of Jupiter’s moons. One suspects that it has a thick coating 
@@ -151,13 +152,16 @@
                 <img src="./img/link.png"  alt="Links">                 
               <div class="dropdown">
                   <h4 class="h4"><b>Links</b></h4>
-                  <span class="span" margin-left="center"><h4>Want to learn more? Check out our links!</h4></span>         
-                <div class="dropdown_content">                                  
-                  <ul><a href="https://www.lockheedmartin.com/en-us/capabilities/space/solarsystem/" target="_blank">Lockheed Martin</a></ul>
-                  <ul><a href="https://theskylive.com/planetarium" target="_blank">The Skyline</a></ul>
-                  <ul><a href="https://eyes.nasa.gov/ " target="_blank">NASA’s Eyes</a></ul>              
-                  <ul><a href="https://spaceengine.org/" target="_blank">Space Engine</a></ul>
-                  <ul><a href="https://www.earthspacelab.com/" target="_blank">Earth Space Lab</a></ul>              
+                  <h4 class="span">Want to learn more? Check out our links!</h4>     
+                <div class="dropdown_content">  
+                    <ul>                         
+                  <li><a href="https://www.lockheedmartin.com/en-us/capabilities/space/solarsystem/" target="_blank">Lockheed Martin</a></li>
+                  <li><a href="https://theskylive.com/planetarium" target="_blank">The Skyline</a></li>
+                    <li><a href="https://eyes.nasa.gov/ " target="_blank">NASA’s Eyes</a></li>            
+                      <li><a href="https://spaceengine.org/" target="_blank">Space Engine</a></li>
+                        <li><a href="https://www.earthspacelab.com/" target="_blank">Earth Space Lab</a></li>
+                        </ul>
+                                    
                 </div>
               </div>        
             </div>
@@ -170,7 +174,7 @@
                <img src="./img/group.png"  alt="Group Eleven">
                <div class="dropdown">
                  <h4 class="h4"><b>About Us</b></h4>            
-                 <span class="span" margin-left="center"><h4 class="groupeleven">GroupEleven</h4></span>              
+                 <h4 class="span"><b>GroupEleven</b></h4>             
                  <div class="dropdown_content">              
                    <p>At this time, our kind of quote could be: <span style="color:#4996c5">
                      <br><br>"When I wrote this code, only God and I understood what it did. Now only God knows".</span>
@@ -188,21 +192,21 @@
     
       <footer>
         <ul class="mail">                
-          <ul>Contact us:</ul>
-          <ul><a href="mailto:h22liben@du.se">Linus Bengtsson - h22liben@du.se</a></ul>
-          <ul><a href="mailto:h22jimha@du.se">Jimmy Hammarberg - h22jimha@du.se</a></ul>
-          <ul><a  href="mailto:h22annla@du.se">Annika Larsdotter - h22annla@du.se</a></ul>
-          <ul><a href="mailto:h22hozsi@du.se">Hozan Sido - h22hozsi@du.se</a></ul>
-          <ul><a href="mailto:h22sowen@du.se">Sofie Wennström - h22sowen@du.se</a></ul>
+          <li>Contact us:</li>
+          <li><a href="mailto:h22liben@du.se">Linus Bengtsson - h22liben@du.se</a></li>
+          <li><a href="mailto:h22jimha@du.se">Jimmy Hammarberg - h22jimha@du.se</a></li>
+          <li><a  href="mailto:h22annla@du.se">Annika Larsdotter - h22annla@du.se</a></li>
+          <li><a href="mailto:h22hozsi@du.se">Hozan Sido - h22hozsi@du.se</a></li>
+          <li><a href="mailto:h22sowen@du.se">Sofie Wennström - h22sowen@du.se</a></li>
        </ul>
     
        <ul class="th">
-         <ul>Sources:</ul>
-         <ul><a href="https://www.nrm.se/faktaomnaturenochrymden/rymden/planeterochasteroider/mars.8058.html">Facts about Mars</a></ul>
-         <ul><a href="https://www.nrm.se/faktaomnaturenochrymden/rymden/planeterochasteroider/venus.8055.html">Facts about Venus</a></ul>
-         <ul><a href="https://www.nrm.se/faktaomnaturenochrymden/rymden/planeterochasteroider/jupiter.8060.html">Facts about Jupiter</a></ul>
-         <ul><a href="https://www.popularastronomi.se/2018/05/ny-inblick-in-i-manen-europa-med-tjugo-ar-gamla-data/">Facts about Europa</a></ul>
-         <ul><a href="https://www.freepik.com/free-photo/starry-night-sky_7061153.htm#query=starry%20night&position=5&from_view=search%22%3EImage">Starry night</a></ul>
+         <li>Sources:</li>
+         <li><a href="https://www.nrm.se/faktaomnaturenochrymden/rymden/planeterochasteroider/mars.8058.html">Facts about Mars</a></li>
+         <li><a href="https://www.nrm.se/faktaomnaturenochrymden/rymden/planeterochasteroider/venus.8055.html">Facts about Venus</a></li>
+         <li><a href="https://www.nrm.se/faktaomnaturenochrymden/rymden/planeterochasteroider/jupiter.8060.html">Facts about Jupiter</a></li>
+         <li><a href="https://www.popularastronomi.se/2018/05/ny-inblick-in-i-manen-europa-med-tjugo-ar-gamla-data/">Facts about Europa</a></li>
+         <li><a href="https://www.freepik.com/free-photo/starry-night-sky_7061153.htm#query=starry%20night&position=5&from_view=search%22%3EImage">Starry night background by kjpargeter</a></li>
         </ul>
       </footer>
      <!-- footer ends -->

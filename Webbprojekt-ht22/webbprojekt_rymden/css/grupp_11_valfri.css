@@ -7,7 +7,7 @@ body
   padding: 0px; /* no space at top and sides */
 }
 
-/* sets the features of links */
+/* sets the features of links */ 
 a:link {text-decoration: black;}
 a:visited {text-decoration: #565657;}
 a:visited {font-weight: bold;}
@@ -37,6 +37,7 @@ a:hover {font-weight: bold;}
   height: 50px;
   display: table;
   margin-left: 50px;
+  margin-top: 10px;
 }
 /* bestämmer h2-texten i översta boxen*/
 .logo_container h2
@@ -66,16 +67,19 @@ a:hover {font-weight: bold;}
 {
   height: 100%;  
   margin-right: 250px;
+  margin-left: 50px;
+ 
 }
 /* font inställningar på länken pluto*/
-.navigation a li
+.navigation a 
 {
   color: white;
   height: 100%;
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: center;
   font-family: Montserrat;
   font-size: 16px;  
+  
 }
 /* Boxen med bakgrundsbild *undre boxen**/
 .stars 
@@ -111,12 +115,12 @@ a:hover {font-weight: bold;}
   margin-right: auto;  
   text-align: center; 
   display: block; 
-  font-weight: light;
+  font-weight: lighter;
   letter-spacing: 1px;
 }
 
 /* sets info phrase about site and how to make dropdown visible */
-.span_info_message
+.h5_info_message
 {
   width: 900px;  
   margin-left: auto;
@@ -124,11 +128,11 @@ a:hover {font-weight: bold;}
   text-align: center; 
   font-family: '';
   font-size: 18px;
-  font-weight: light;
   line-height: 20px;
   color: rgb(97, 88, 88);
   display: block;
-  font-weight: light;   
+  font-weight: lighter; 
+  text-align: center;  
 }
 
 /* card settings */
@@ -164,7 +168,9 @@ a:hover {font-weight: bold;}
 
 /* sets the subheading in all cards (viz hover heading "did you know")*/
 .span
-{    
+{  
+  width: 300px;  
+ 
   text-align: center; 
   font-family: 'Arial Narrow';
   font-size: 14px;
@@ -289,6 +295,7 @@ footer .mail
   padding-left: 350px;
   margin-top: 30px;
   display: inline-block;
+  list-style-type: none;
 }
 /*länkar*/
 footer .th
@@ -305,6 +312,7 @@ footer .th
   padding-bottom: 5px;
   padding-left: 370px;
   border-left: 2px #f9f9f9 solid;
+  list-style-type: none;
 }
 /* contact us & sources*/
 footer a
